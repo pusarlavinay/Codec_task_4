@@ -44,13 +44,21 @@ sudo apt install python3-tk   # For GUI
 ▶️ Usage
 
 Run the tool:
+
 python3 main.py
+
 Symmetric Tab
+
 Generate Fernet Key OR derive from password.
+
 Encrypt/Decrypt text or files.
+
 RSA Tab
+
 Generate RSA key pair.
+
 Save keys for future use.
+
 Encrypt/Decrypt text securely.
 
 
