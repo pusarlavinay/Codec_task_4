@@ -21,9 +21,14 @@ Supports both **Symmetric (AES/Fernet)** and **Asymmetric (RSA)** encryption for
 
 ## 📂 Project Structure
 advanced_encryption_tool/
+
 │── main.py # GUI Entry point
+
+
 │── encryption.py # Symmetric encryption functions
+
 │── rsa_utils.py # Asymmetric (RSA) functions
+
 │── secret.key # Auto-generated Fernet key
 
 
@@ -44,21 +49,13 @@ sudo apt install python3-tk   # For GUI
 ▶️ Usage
 
 Run the tool:
-
 python3 main.py
-
-Symmetric Tab
-
-Generate Fernet Key OR derive from password.
-
+Symmetric Tab\
+Generate Fernet Key OR derive from password.\
 Encrypt/Decrypt text or files.
-
 RSA Tab
-
 Generate RSA key pair.
-
 Save keys for future use.
-
 Encrypt/Decrypt text securely.
 
 
